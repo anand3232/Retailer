@@ -21,5 +21,15 @@ void List::add(int data)
       temp->next=newNode;
     }
 }
+void display()
+{
+   Node *temp=head;
+   while(temp!=nullptr)
+   {
+      std::cout<<temp->data<<"\t"
+   }
+   std::cout<<std::endl;
+
+}
 
 
